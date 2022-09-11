@@ -4,6 +4,8 @@ import cccweb from './images/cccWeb.png';
 import encoder from './images/huffManEncoder.jpg';
 import pathfinder from './images/mapPathFinder.png';
 import pong from './images/atariPongGame.png';
+import engine from './images/searchengine.png';
+
 
 
 export const Projects = [
@@ -61,7 +63,7 @@ export const Projects = [
     {
         id: 6,
         name: "Serial Number Search Engine",
-        imageSrc: <img />,
+        imageSrc: <img src={engine} className = "w-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt=""/>,
         techs:<p>Python<IoLogoPython classNmae = "inline text-white text-3xl"/></p>,
         description: "Program that crawls/searches through goes a directory and all it subfolders and files and retreives any serial number format depending on the specified pattern/regex",
         github: <a href = "#"><span><IoLogoGithub className = "text-white text-3xl cursor-pointer float-right"/></span></a>
