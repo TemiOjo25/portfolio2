@@ -193,6 +193,15 @@ function App() {
                 </div>
 
               </div>
+
+              // <div className="border border-zinc-800 rounded-md p-2 m-10 w-508 hover:border-zinc-600 duration-100 ease-in-out">
+
+              //   <p className  = "text-lg text-textBase font-medium uppercase">
+
+              //   </p>
+              
+              
+              // </div>
             </section>
 
             {/* Contact Section */}

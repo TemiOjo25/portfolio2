@@ -5,6 +5,7 @@ import encoder from './images/huffManEncoder.jpg';
 import pathfinder from './images/mapPathFinder.png';
 import pong from './images/atariPongGame.png';
 import engine from './images/searchengine.png';
+import crawler from './images/scraper.mp4';
 
 
 
@@ -54,7 +55,7 @@ export const Projects = [
     {
         id: 5,
         name: "Web Data Extractor",
-        imageSrc:<img />,
+        imageSrc:<video src={guieditor} loop autoPlay muted className="rounded-md my-4 hover:scale-110 ease-in-out duration-500"/>,
         techs:<p>Python<IoLogoPython className="inline text-white text-3xl"/> </p>,
         description: "Program that scrapes an online bookstore website and automatically creates a list of all the books depending on the specified ratings and price",
         github: <a href="#"><span><IoLogoGithub className = "text-white text-3xl cursor-pointer float-right"/></span></a>, 
