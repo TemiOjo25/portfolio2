@@ -75,18 +75,19 @@ function App() {
         </div>
         
       </nav>
-      <div className="w-[100%] h-800 mt-20 inline-block relative bg-black" id="home">
-      <Spline scene="https://prod.spline.design/CQV8EWQDT30O6qu1/scene.splinecode" />
-
-      <div className="bottom-10 w-full mt-10 justify-center items-center flex">
-        <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl">
-          <p className="text-white">Press and drag to orbit, Type to Interact</p>
+        
+      <div className="relative pb-20 h-90vh w-full  " id="home">
+      <Spline scene="https://prod.spline.design/CQV8EWQDT30O6qu1/scene.splinecode" className=' ' />
+          <div className="absolute bottom-10 w-full flex justify-center items-center">
+            <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl ">
+              <p className="text-white">Press and drag to orbit, Type to interact:)</p>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>  
-
+      
+ 
           {/* Main Section */}
-          <main className="w-[75%] mt-20">
+          <main className="w-[80%] mt-20">
             {/* about section */}
             <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24" id="about">
               {/* Image Box */}
@@ -98,51 +99,50 @@ function App() {
               
 
               {/* content Box */}
-              <div className="w-full h-420 flex flex-col items-center text-center justify-center relative">
-              <p className="text-lg text-textBase text-center">
+              <div className="flex-wrap w-full flex flex-col items-center text-center justify-center relative top-10">
+              <p className=" text-lg text-textBase text-center">
                   <b>Hi, I'm Temitayo Ojo</b>. A Sophomore at Dartmouth College. I'm a Software Developer with Web/3d developments skills. <br/>I love to Code because it gives me Joy and the ability to make a change in the world.
                 </p>
 
                 <a href={resume} target="_blank">
                 <motion.button 
                 whileTap={{scale:0.8}}
-                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
+                class=" w-full md:w-auto relative mt-6 inline-flex items-center ustify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   Resume
                 </span>
               </motion.button>
               </a>
-              
-
-                {/* trusted languages */}
-                <p className="w-40 text-lg text-white text-center mx-15 relative top-16">Experience With:</p>
-                <div className="w-40 flex flex-row items-center relative top-20 justify-evenly">
-               
-                  <img className=" w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={pythonLogo}/>
-                  <img className="w-20 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={htcssLogo}/>
-                  <img className="w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-0" src={javaLogo}/>
-                  <img className="w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={splineLogo}/>
-                  <img className="w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={reactLogo}/>
-                  <img className="w-12 hover:scale-110 duration-500 cursor-pointer rounded-2xl" src={jslogo}/>
-               
-                </div>
+              {/* trusted languages */}
+            <div className='flex-wrap relative '>
+                <p className=" text-lg text-white text-center ">Experience With:</p>
+                  <div className=' inline-flex'>
+                  <img className="w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={pythonLogo}/></div>
+                  <div className=" inline-flex">
+                  <img className="w-20  hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={htcssLogo}/></div>
+                  <div className=' inline-flex'>
+                  <img className="w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-0" src={javaLogo}/></div>
+                  <div className=' inline-flex'>
+                  <img className="w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={splineLogo}/></div>
+                  <div className=' inline-flex'>
+                  <img className="w-10 hover:scale-110 duration-500 cursor-pointer rounded-2xl mx-2" src={reactLogo}/></div>
+                  <div className=" inline-flex">
+                  <img className="w-12 hover:scale-110 duration-500 cursor-pointer rounded-2xl" src={jslogo}/></div>
+                  
+               </div>
                 
               </div>
+              
             </section>
             <hr/>
+            
+            
+
 
             {/* Project Section */}
-            <section className="flex flex-wrap items-center justify-evenly my-24 gap-4" id="projects">
+            <section className="flex flex-wrap items-center justify-evenly my-24 gap-4 w-600 " id="projects">
               {Projects && Projects.map(n => (
-                <motion.div 
-                initial={{opacity:1}}
-                // animate={{opacity:0, scale:1}}
-                whileInView={{opacity:0}}
-                transition={{duration:200}}
-                
-
-
-                key={n.id} className="border border-zinc-800 rounded-md p-2 m-10 w-full h-90 min-w-[455px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out ">
+                <div key={n.id} className="border border-zinc-800 rounded-md p-2 m-10 w-508 h-190   hover:border-zinc-600 duration-100 ease-in-out ">
                 <p className="text-lg text-textBase font-medium uppercase">
                   {n.name}
                 </p>
@@ -165,10 +165,10 @@ function App() {
                 </div>
                 
 
-              </motion.div>
+              </div>
               ))}
 
-              <div className="border border-zinc-800 rounded-md p-2 m-10 w-400 min-w-[475px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out ">
+              <div className="border border-zinc-800 rounded-md p-2 m-10 w-508  hover:border-zinc-600 duration-100 ease-in-out ">
                 <p className="text-lg text-textBase font-medium uppercase">
                   Collaborative Graphical Editor
                 </p>

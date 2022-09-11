@@ -17,31 +17,32 @@ export const Projects = [
         
     
     },
-    
     {
         id:2,
-        name:"Huffman Encoder",
-        imageSrc:<img src={encoder} className="w-200 h-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt="" />,
-        techs: "JAVA",
-        description: "File compression and decompression using Huffman encoding. This brings together different ADTs' and file i/o, all to help save the bits!",
-        github: "",
-        
-
-    },
-    {
-        id:3,
         name: "Dartmouth College Map PathFinder",
-        imageSrc: <img src={pathfinder} className="w-200 h-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt="" />,
+        imageSrc: <img src={pathfinder} className="w-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt="" />,
         techs: <p>Python <IoLogoPython className="inline text-white text-3xl"/> </p>,
         description: "Similar to the foundations of a variety of more advanced GPS apps, I created a graph that models part of the Dartmouth Campus and finds the shortest path from one point to the other and display it.",
         github: "",
         
 
     },
+    
+    {
+        id:3,
+        name:"Huffman Encoder",
+        imageSrc:<img src={encoder} className="w-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt="" />,
+        techs: "JAVA",
+        description: "File compression and decompression using Huffman encoding. This brings together different ADTs' and file i/o, all to help save the bits!",
+        github: "",
+        
+
+    },
+    
     {
         id:4,
         name: "Atari Pong Game",
-        imageSrc: <img src={pong} className="w-200 h-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt="" />,
+        imageSrc: <img src={pong} className="w-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt="" />,
         techs: <p>Python <IoLogoPython className="inline text-white text-3xl"/> </p>,
         description: "Simple controllable Pong game for two players.",
         github: "",
