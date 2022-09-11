@@ -176,7 +176,7 @@ function App() {
               
                 
                 <div className="flex flex-1 items-center justify-between">
-                  <p className="text-lg text-textBase ">Built an editor - similar to Google Docs' ability to have multiple simultaneous editors of the same document. In both cases, multiple clients connect to a server, and whatever editing any one of them does, the others see.</p>
+                  <p className="text-lg text-textBase ">Built an editor - similar to Google Docs ability to have multiple simultaneous editors of the same document. In both cases, multiple clients connect to a server, and whatever editing any one of them does, the others see.</p>
                   
                 </div>
                 <div className="flex flex-wrap float-left text-gray-300">
