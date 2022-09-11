@@ -63,7 +63,7 @@ export const Projects = [
         name: "Serial Number Search Engine",
         imageSrc: <img />,
         techs:<p>Python<IoLogoPython classNmae = "inline text-white text-3xl"/></p>,
-        description: "Program that crawls/searches through goes a directory and all it subfolders and files and retreives any serial number format depending on the required pattern/regex",
+        description: "Program that crawls/searches through goes a directory and all it subfolders and files and retreives any serial number format depending on the specified pattern/regex",
         github: <a href = "#"><span><IoLogoGithub className = "text-white text-3xl cursor-pointer float-right"/></span></a>
     
 
