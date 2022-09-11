@@ -45,8 +45,17 @@ export const Projects = [
         imageSrc: <img src={pong} className="w-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt="" />,
         techs: <p>Python <IoLogoPython className="inline text-white text-3xl"/> </p>,
         description: "Simple controllable Pong game for two players.",
-        github: "",
-        
+        github: "", 
+
+    },
+
+    {
+        id: 5,
+        name: "Web Data Extractor",
+        imageSrc:<img />,
+        techs:<p>Python<IoLogoPython className="inline text-white text-3xl"/> </p>,
+        description: "Program that scrapes an online bookstore website and automatically creates a list of all the books depending on the specified ratings and price",
+        github: <a href="#"><span><IoLogoGithub className = "text-white text-3xl cursor-pointer float-right"/></span></a>, 
 
     },
     
