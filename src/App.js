@@ -12,6 +12,7 @@ import reactLogo from './images/react.png';
 import jslogo from './images/jsLogo.png';
 
 import guieditor from './images/guiEditor.mp4';
+import scraper from './images/scraper.mp4';
 import resume from './images/collegeResume.pdf';
 
 
