@@ -13,7 +13,7 @@ import jslogo from './images/jsLogo.png';
 
 import guieditor from './images/guiEditor.mp4';
 import scraper from './images/scraper.mp4';
-import resume from './images/collegeResume.pdf';
+import resume from './images/TemitayoOjoResume+(1).pdf';
 
 
 import { Projects, SocialLinks } from "./data";
