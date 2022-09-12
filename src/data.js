@@ -54,23 +54,15 @@ export const Projects = [
 
     {
         id: 5,
-        name: "Web Data Extractor",
-        imageSrc:<img/>,
-        techs:<p>Python<IoLogoPython className="inline text-white text-3xl"/> </p>,
-        description: "Program that scrapes an online bookstore website and automatically creates a list of all the books depending on the specified ratings and price",
-        github: <a href="#"><span><IoLogoGithub className = "text-white text-3xl cursor-pointer float-right"/></span></a>, 
-
-    },
-    {
-        id: 6,
         name: "Serial Number Search Engine",
         imageSrc: <img src={engine} className = "w-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt=""/>,
         techs:<p>Python<IoLogoPython classNmae = "inline text-white text-3xl"/></p>,
-        description: "Program that crawls/searches through goes a directory and all it subfolders and files and retreives any serial number format depending on the specified pattern/regex",
+        description: "Program that crawls through a directory and all it subfolders and files and retreives any serial number format depending on the specified pattern/regex",
         github: <a href = "#"><span><IoLogoGithub className = "text-white text-3xl cursor-pointer float-right"/></span></a>
     
 
     },
+   
     
 ];
 

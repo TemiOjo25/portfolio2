@@ -203,7 +203,7 @@ function App() {
                   <video src={scraper} loop autoPlay muted className= "rounded-md my-4 hover:scale-110 ease-in-out duration-500"/>
 
                   <div className = 'flex flex-1 items-center justify-between'>
-                    <p className = 'text-lg text-textBase'>...</p>
+                    <p className = 'text-lg text-textBase'>Program that scrapes an online bookstore website an automatically creates a list of all books depending on th specified ratings and price</p>
 
                   </div>
                   <div className = 'flex flex-wrap float-left text-gray-300'>
