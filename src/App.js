@@ -194,14 +194,31 @@ function App() {
 
               </div>
 
-              // <div className="border border-zinc-800 rounded-md p-2 m-10 w-508 hover:border-zinc-600 duration-100 ease-in-out">
+              <div className="border border-zinc-800 rounded-md p-2 m-10 w-508 hover:border-zinc-600 duration-100 ease-in-out">
 
-              //   <p className  = "text-lg text-textBase font-medium uppercase">
+                <p className  = "text-lg text-textBase font-medium uppercase">
+                  Web Data Extractor
+                </p>
+                  <video src={scraper} loop autoPlay muted className= "rounded-md my-4 hover:scale-110 ease-in-out duration-500"/>
 
-              //   </p>
+                  <div className = 'flex flex-1 items-center justify-between'>
+                    <p className = 'text-lg text-textBase'>...</p>
+
+                  </div>
+                  <div className = 'flex flex-wrap float-left text-gray-300'>
+                    <span className = 'text-sm to-gray-300'>
+
+                      <br/>
+                      <p>Python</p>
+                    </span>
+                  </div>
+
+                  <div className = 'flex flex-wrap float-right mt-5 hover:scale-110 duration-200'>
+                    <a href = '#'><span></span></a>
+                  </div>
               
               
-              // </div>
+              </div>
             </section>
 
             {/* Contact Section */}
