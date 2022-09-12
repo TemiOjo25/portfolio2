@@ -102,7 +102,7 @@ function App() {
               {/* content Box */}
               <div className="flex-wrap w-full flex flex-col items-center text-center justify-center relative top-10">
               <p className=" text-lg text-textBase text-center">
-                  <b>Hi, I am Temitayo Ojo.</b> A Sophomore at Dartmouth College.<br/> I love to Code because it gives me Joy and the ability to make a change in the world.
+                  <b>Hi, I am Temitayo Ojo.</b> A Sophomore at Dartmouth College.<br/> 
                 </p>
 
                 <a href={resume} target="_blank">
