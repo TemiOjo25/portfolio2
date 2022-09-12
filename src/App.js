@@ -169,6 +169,8 @@ function App() {
               </div>
               ))}
 
+                    //gui editor vid data
+
               <div className="border border-zinc-800 rounded-md p-2 m-10 w-508  hover:border-zinc-600 duration-100 ease-in-out ">
                 <p className="text-lg text-textBase font-medium uppercase">
                   Collaborative Graphical Editor
@@ -195,6 +197,8 @@ function App() {
 
               </div>
 
+                  //  web extractor vid data
+
               <div className="border border-zinc-800 rounded-md p-2 m-10 w-508 hover:border-zinc-600 duration-100 ease-in-out">
 
                 <p className  = "text-lg text-textBase font-medium uppercase">
@@ -220,6 +224,9 @@ function App() {
               
               
               </div>
+
+                  // Game space invasion vid data
+
             </section>
 
             {/* Contact Section */}
