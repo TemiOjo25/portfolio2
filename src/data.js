@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { IoLogoGithub, IoLogoGoogle, IoLogoInstagram, IoLogoLinkedin, IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoPython } from "react-icons/io5";
 import cccweb from './images/cccWeb.png';
 import encoder from './images/huffManEncoder.jpg';
@@ -6,6 +7,10 @@ import pathfinder from './images/mapPathFinder.png';
 import pong from './images/atariPongGame.png';
 import engine from './images/searchengine.png';
 import crawler from './images/scraper.mp4';
+import guieditor from './images/guiEditor.mp4';
+import scraper from './images/scraper.mp4';
+
+
 
 
 
@@ -51,9 +56,19 @@ export const Projects = [
         github: "", 
 
     },
+    {
+        id:5,
+        name: "Web Data Extractor",
+        imageSrc: "",
+        Vidsrc: <video src={scraper} loop autoPlay muted className="rounded-md my-4 hover:scale-110 ease-in-out duration-500"/>,
+        techs: <p>Python <IoLogoPython className="inline text-white text-3xl"/> </p>,
+        description: "Program that scrapes an online bookstore website an automatically creates a list of all books depending on th specified ratings and price",
+        github: <a href = "#"><span><IoLogoGithub className = "text-white text-3xl cursor-pointer float-right"/></span></a>, 
+
+    },
 
     {
-        id: 5,
+        id: 6,
         name: "Serial Number Search Engine",
         imageSrc: <img src={engine} className = "w-full object-cover rounded-md my-4 hover:scale-110 ease-in-out duration-500" alt=""/>,
         techs:<p>Python<IoLogoPython classNmae = "inline text-white text-3xl"/></p>,
@@ -62,6 +77,18 @@ export const Projects = [
     
 
     },
+
+    {
+        id:7,
+        name: "Collaborative Graphical Editor",
+        imageSrc: "",
+        Vidsrc: <video src={guieditor} loop autoPlay muted className="rounded-md my-4 hover:scale-110 ease-in-out duration-500"/>,
+        techs:<p>Java</p>,
+        description: "Built an editor - similar to Google Docs ability to have multiple simultaneous editors of the same document. In both cases, multiple clients connect to a server, and whatever editing any one of them does, the others see.",
+        github: <a href = "#"><span><IoLogoGithub className="text-white text-3xl cursor-pointer float-right"/></span></a>
+
+    },
+    
    
     
 ];

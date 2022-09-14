@@ -11,10 +11,7 @@ import splineLogo from './images/splineLogo1.png';
 import reactLogo from './images/react.png';
 import jslogo from './images/jsLogo.png';
 
-import guieditor from './images/guiEditor.mp4';
-import scraper from './images/scraper.mp4';
 import resume from './images/TemitayoOjoResume+(1).pdf';
-
 
 import { Projects, SocialLinks } from "./data";
 
@@ -148,6 +145,7 @@ function App() {
                   {n.name}
                 </p>
                 {n.imageSrc}
+                {n.Vidsrc}
 
                 <div className="flex flex-1 items-center justify-between">
                   <p className="text-lg text-textBase ">{n.description}</p>
@@ -168,62 +166,6 @@ function App() {
 
               </div>
               ))}
-
-                    //gui editor vid data
-
-              <div className="border border-zinc-800 rounded-md p-2 m-10 w-508  hover:border-zinc-600 duration-100 ease-in-out ">
-                <p className="text-lg text-textBase font-medium uppercase">
-                  Collaborative Graphical Editor
-                </p>
-                <video src={guieditor} loop autoPlay muted className="rounded-md my-4 hover:scale-110 ease-in-out duration-500"/>
-              
-                
-                <div className="flex flex-1 items-center justify-between">
-                  <p className="text-lg text-textBase ">Built an editor - similar to Google Docs ability to have multiple simultaneous editors of the same document. In both cases, multiple clients connect to a server, and whatever editing any one of them does, the others see.</p>
-                  
-                </div>
-                <div className="flex flex-wrap float-left text-gray-300">
-                  <span className="text-sm to-gray-300 ">
-                    
-                    <br/>
-                    <p>JAVA</p> 
-                  </span>
-                </div>
-                
-                <div 
-                className="flex flex-wrap float-right mt-5 hover:scale-110 duration-200">
-                  <a href="#"><span></span></a>
-                </div>
-
-              </div>
-
-                  //  web extractor vid data
-
-              <div className="border border-zinc-800 rounded-md p-2 m-10 w-508 hover:border-zinc-600 duration-100 ease-in-out">
-
-                <p className  = "text-lg text-textBase font-medium uppercase">
-                  Web Data Extractor
-                </p>
-                  <video src={scraper} loop autoPlay muted className= "rounded-md my-4 hover:scale-110 ease-in-out duration-500"/>
-
-                  <div className = 'flex flex-1 items-center justify-between'>
-                    <p className = 'text-lg text-textBase'>Program that scrapes an online bookstore website an automatically creates a list of all books depending on th specified ratings and price</p>
-
-                  </div>
-                  <div className = 'flex flex-wrap float-left text-gray-300'>
-                    <span className = 'text-sm to-gray-300'>
-
-                      <br/>
-                      <p>Python</p>
-                    </span>
-                  </div>
-
-                  <div className = 'flex flex-wrap float-right mt-5 hover:scale-110 duration-200'>
-                    <a href = '#'><span></span></a>
-                  </div>
-              
-              
-              </div>
 
                   // Game space invasion vid data
 
