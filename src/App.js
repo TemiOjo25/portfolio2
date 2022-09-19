@@ -11,7 +11,7 @@ import splineLogo from './images/splineLogo1.png';
 import reactLogo from './images/react.png';
 import jslogo from './images/jsLogo.png';
 
-import resume from './images/TemitayoOjoResumeup.pdf';
+import resume from './images/TemitayoOjoResume.pdf';
 
 import { Projects, SocialLinks } from "./data";
 
